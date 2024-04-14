@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon iconcut" href="img/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delson Pilar</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <p class="name"><span>D</span>elson Pilar</p>
+        <button class="hamburger" onclick="menuBar()"></button>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#inicio" onclick="removeNav()">Inicio</a></li>
+                <li><a href="#projetos" onclick="removeNav()">Projetos</a></li>
+                <li><a href="#contato" onclick="removeNav()">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="apresentacao" id="inicio" >
+            <div class="content1">
+                <h1 class="borda-baixa">Delson Pilar</h1>
+                <p>Desenvolvedor web full stack em formação. Adoro desenvolver projetos pessoais e busco sempre meu
+                    aprimoramento na área. Gosto muito de fazer a parte lógica das aplicações e estou sempre pronto para
+                    um novo desafio.</p>
+                <p></p>
+
+                <div class="social">
+                    <button class="button button-1">
+                        <a href="https://www.linkedin.com/in/delson-dubal-pilar-2132a32b3/">
+                            <div class="img-button img-button-1"></div>
+                        </a>
+                    </button>
+                    <button class="button button-2">
+                        <a href="https://www.linkedin.com/in/delson-dubal-pilar-2132a32b3/">
+                            <div class="img-button img-button-1"></div>
+                        </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="content2">
+                <img src="img/minha-imagem.jpeg" alt="Fotografia do Delson de frente usando a camisa da IOS"
+                    class="delson">
+            </div>
+        </section>
+
+        <section class="tecnologias" data-aos="zoom-in">
+            <h2 class="borda-baixa">Tecnologias que trabalho</h2>
+
+            <div class="tecnologias-imagens">
+                <img src="img/html.png" alt="Logo HTML">
+                <img src="img/css.png" alt="Logo CSS">
+                <img src="img/javascript.png" alt="Logo JavaScript">
+                <img src="img/bootstrap.png" alt="logo Bootstrap">
+            </div>
+        </section>
+
+        <section class="projetos" id="projetos">
+
+            <h2 class="borda-baixa">Projetos desenvolvidos</h2>
+
+            <div class="projeto" data-aos="fade-up" data-aos-offset="400">
+
+                <div class="imagem-projeto">
+                    <img src="img/projeto-1.png" alt="Imagen do projeto Git hub">
+                </div>
+
+                <div class="texto-projeto">
+
+                    <h3 class="borda-baixa-curta">Adventure Seeker</h3>
+
+                    <p>Este projeto foi desenvolvido como uma prática para aprimorar as habilidades em HTML, CSS e
+                        JavaScript. O site apresenta uma série de destinos de viagem, com ênfase especial na técnica de
+                        paralaxe. Entre os destinos abordados estão Roma, Nova York e Kioto. Além disso, incorpora
+                        botões interativos que permitem ao usuário alternar entre diferentes tópicos em cada seção de
+                        texto.</p>
+
+                    <div class="links">
+                        <button class="button">
+                            <a href="https://delson16.github.io/AdventureSeeker/">Página</a>
+                        </button>
+                        <button class="button">
+                            <a href="https://github.com/Delson16/AdventureSeeker">Repositório</a>
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="projeto" data-aos="fade-up" data-aos-offset="400">
+
+                <div class="imagem-projeto">
+                    <img src="img/projeto-2.png" alt="Imagen do projeto Git hub">
+                </div>
+
+                <div class="texto-projeto">
+
+                    <h3 class="borda-baixa-curta">Jogo do Número Misterioso</h3>
+
+                    <p>Este projeto foi desenvolvido com o propósito de desenvolver um jogo simples utilizando
+                        JavaScript. O jogo consiste em um sistema que desafia o jogador a adivinhar um número misterioso
+                        dentro de um intervalo entre 0 e 100. O usuário digita um valor e recebe feedback indicando se o
+                        valor é maior ou menor que o número secreto.</p>
+
+                    <div class="links">
+                        <button class="button">
+                            <a href="https://delson16.github.io/jogo-do-numero-misterioso/">Página</a>
+                        </button>
+                        <button class="button">
+                            <a href="https://github.com/Delson16/jogo-do-numero-misterioso">Repositório</a>
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="projeto" data-aos="fade-up" data-aos-offset="400">
+
+                <div class="imagem-projeto">
+                    <img src="img/projeto-3.png" alt="Imagen do projeto Git hub">
+                </div>
+
+                <div class="texto-projeto">
+
+                    <h3 class="borda-baixa-curta">One Home</h3>
+
+                    <p>Este projeto foi desenvolvido na etapa final do ciclo de um curso. Tinha como objetivo colocar em
+                        prática os
+                        conteúdos aprendidos, bem como realizar uma homenagem aos nossos familiares por
+                        meio dos setores de uma empresa. O site foi desenvolvido usando CSS e HTML.</p>
+
+                    <div class="links">
+                        <button class="button">
+                            <a href="https://delson16.github.io/projeto_familia/">Página</a>
+                        </button>
+                        <button class="button">
+                            <a href="https://github.com/Delson16/projeto_familia">Repositório</a>
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="btn-projetos" id="btn-projetos" data-aos="zoom-in" data-aos-offset="400">
+                <p>Ver mais projetos</p>
+                <img src="img/seta.png" alt="Seta azul">
+            </div>
+
+            <div class="projetos-adicionais" id="projetosAdicionais" data-aos="zoom-in">
+
+                <div class="mais-projetos-content">
+
+                    <img src="img/projeto-4.png" alt="imagem do projeto lista de tarefas">
+                    <div class="texto-projeto">
+                        <h3 class="borda-baixa-curta">Lista de tarefas</h3>
+                        <p>Projeto desenvolvido usando HTML, CSS e JavaScript. Trata-se de uma lista de tarefas onde o usuário pode adicionar e/ou excluir tarefas em uma lista.</p>
+                        <div class="links">
+                            <button class="button">
+                                <a href="https://delson16.github.io/Lista-de-tarefas/">Página</a>
+                            </button>
+                            <button class="button">
+                                <a href="https://github.com/Delson16/Lista-de-tarefas">Repositório</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mais-projetos-content">
+                    <img src="img/projeto-5.png" alt="Imagem do projeto quiz de perguntas">
+                    <div class="texto-projeto">
+                        <h3 class="borda-baixa-curta">Quiz de perguntas</h3>
+                        <p>O site trata-se de um quiz de perguntas com a temática do jogo Celeste. Desenvolvido em HTML, CSS e JavaScript o usuário pode jogar tentando acertar as perguntas sobre o jogo.</p>
+                        <div class="links">
+                            <button class="button">
+                                <a href="https://delson16.github.io/quiz-Celeste/">Página</a>
+                            </button>
+                            <button class="button">
+                                <a href="https://github.com/Delson16/quiz-Celeste">Repositório</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mais-projetos-content">
+                    <img src="img/projeto-6.png" alt="Imagem do projeto calculador IMC">
+                    <div class="texto-projeto">
+                        <h3 class="borda-baixa-curta">Calculadora de IMC</h3>
+                        <p>Projeto desenvolvido em HTML, CSS e JavaScript. Trata-se de uma calculadora de IMC, onde o usuário pode saber seu indice de massa corporal informando seu peso e altura.</p>
+                        <div class="links">
+                            <button class="button">
+                                <a href="https://delson16.github.io/IMC/">Página</a>
+                            </button>
+                            <button class="button">
+                                <a href="https://github.com/Delson16/IMC">Repositório</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mais-projetos-content">
+                    <img src="img/projeto-7.png" alt="imagem do projeto Calculadora Hacker">
+                    <div class="texto-projeto">
+                        <h3 class="borda-baixa-curta">Calculadora Hacker</h3>
+                        <p>Calculadora matemática desenvolvida em HTML, CSS e JavaScript. Este projeto contou com os calculos matemáticos feitos em JS e animações em CSS com o uso de Key Frames.</p>
+                        <div class="links">
+                            <button class="button">
+                                <a href="https://delson16.github.io/calculadora/">Página</a>
+                            </button>
+                            <button class="button">
+                                <a href="https://github.com/Delson16/calculadora/tree/main">Repositório</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mais-projetos-content">
+                    <img src="img/projeto-8.png" alt="imagem do projeto jogo da velha">
+                    <div class="texto-projeto">
+                        <h3 class="borda-baixa-curta">Jogo da velha</h3>
+                        <p>Jogo da velha desenvolvido com o uso de HTML, CSS E JavaScript. O usuário pode jogar o jogo marcando as posições desejadas. O jogo informa o vencedor e, caso ocorra, informa o impate da partida.</p>
+                        <div class="links">
+                            <button class="button">
+                                <a href="https://delson16.github.io/jogo-da-velha/">Página</a>
+                            </button>
+                            <button class="button">
+                                <a href="https://github.com/Delson16/jogo-da-velha">Repositório</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mais-projetos-content">
+                    <img src="img/projeto-9.png" alt="imagem do projeto carrossel 3d">
+                    <div class="texto-projeto">
+                        <h3 class="borda-baixa-curta">Carrossel 3D</h3>
+                        <p>Projeto desenvolvido usando HTML e CSS. Teve como foco o aprendizado na utilização e manipulação de elementos HTML em 3 dimenções usando o CSS.</p>
+                        <div class="links">
+                            <button class="button">
+                                <a href="https://delson16.github.io/carrossel3d/">Página</a>
+                            </button>
+                            <button class="button">
+                                <a href="https://github.com/Delson16/carrossel3d">Repositório</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mais-projetos-content">
+                    <img src="img/projeto-10.png" alt="imagem do projeto praias do Brasil">
+                    <div class="texto-projeto">
+                        <h3 class="borda-baixa-curta">Praias do Brasil</h3>
+                        <p>Projeto desenvolvido com enfoque princiapal na utilização da técnica de paralax. Juntamente a isso o site faz uso de animações da bibliotécao AOS, sendo construido com CSS e HTML.</p>
+                        <div class="links">
+                            <button class="button">
+                                <a href="https://delson16.github.io/Praias_do_Brasil/">Página</a>
+                            </button>
+                            <button class="button">
+                                <a href="https://github.com/Delson16/Praias_do_Brasil">Repositório</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mais-projetos-content">
+                    <img src="img/projeto-11.png" alt="imagem do projeto Gerador de Tabuada">
+                    <div class="texto-projeto">
+                        <h3 class="borda-baixa-curta">Gerador de tabuada</h3>
+                        <p>Projeto desenvolvido em HTML, CSS e JavaScript. Trata-se de um gerador de tabuada onde o usuário insere um numero e obtém a sua tabuada do numero 0 ao 10.</p>
+                        <div class="links">
+                            <button class="button">
+                                <a href="https://delson16.github.io/geradordetabuada/">Página</a>
+                            </button>
+                            <button class="button">
+                                <a href="https://github.com/Delson16/geradordetabuada">Repositório</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mais-projetos-content">
+                    <img src="img/projeto-12.png" alt="imagem do projeto Cafeteria em Pralax">
+                    <div class="texto-projeto">
+                        <h3 class="borda-baixa-curta">Cafeteria em Paralax</h3>
+                        <p>Projeto desenvolvido com HTML, CSS e JavaScript, com a temática de uma cafeteria. O projeto foca no uso da técnica de paralaxe e animações da biblioteca AOS.</p>
+                        <div class="links">
+                            <button class="button">
+                                <a href="https://delson16.github.io/Paralax/">Página</a>
+                            </button>
+                            <button class="button">
+                                <a href="https://github.com/Delson16/Paralax">Repositório</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mais-projetos-content">
+                    <img src="img/projeto-13.png" alt="imagem do projeto Carrossel - carros">
+                    <div class="texto-projeto">
+                        <h3 class="borda-baixa-curta">Carrossel - carros</h3>
+                        <p>Projeto desenvolvido em HTML e CSS. Trata-se de um carrosel com a temática de carros. O site permite que o usuário navege entre as imagens dispostas no carrossel por meio de botões interativos.</p>
+                        <div class="links">
+                            <button class="button">
+                                <a href="https://delson16.github.io/carro/">Página</a>
+                            </button>
+                            <button class="button">
+                                <a href="https://github.com/Delson16/carro">Repositório</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mais-projetos-content">
+                    <img src="img/projeto-14.png" alt="imagem do projeto Cachorros Fofos">
+                    <div class="texto-projeto">
+                        <h3 class="borda-baixa-curta">Cachorros Fofos</h3>
+                        <p>Projeto desenvolvido com o uso de HTML e CSS. Tinha como foco o uso de animações da bibliotéca AOS, quanto explorava uma temática de pets.</p>
+                        <div class="links">
+                            <button class="button">
+                                <a href="https://delson16.github.io/cachorro_fofo/">Página</a>
+                            </button>
+                            <button class="button">
+                                <a href="https://github.com/Delson16/cachorro_fofo">Repositório</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mais-projetos-content">
+                    <img src="img/projeto-15.png" alt="imagem do projeto Portal Case">
+                    <div class="texto-projeto">
+                        <h3 class="borda-baixa-curta">Portal Case</h3>
+                        <p>Site desenvolvido em dupla, com o uso de HTML e CSS. O projeto tinha como objetivo colocar em praticas os conceitos inciais aprendidos no desenvolvimento web.</p>
+                        <div class="links">
+                            <button class="button">
+                                <a href="https://delson16.github.io/portalcase/">Página</a>
+                            </button>
+                            <button class="button">
+                                <a href="https://github.com/Delson16/portalcase">Repositório</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="contatos" id="contato">
+
+            <div class="menu">
+                <h2 class="borda-baixa">Vamos trabalhar juntos!</h2>
+                <span>Gostaria de saber mais? Me envie um e-mail!</span>
+            </div>
+
+            <div class="contato-contents" data-aos="zoom-in" data-aos-offset="400" >
+                <form action="https://formsubmit.co/dubalpilardelson@gmail.com" method="POST">
+                    <div class="dados">
+                        <div class="nome">
+                            <label for="name" id="label-nome">Seu nome</label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div class="email">
+                            <label for="email" id="label-mail">Seu e-mail</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                    </div>
+                    <label for="msg">Sua mensagem</label>
+                    <textarea name="message" id="msg" cols="30" rows="6"></textarea>
+                    <input type="submit" value="Enviar mensagem">
+
+                    <input type="hidden" name="_subject" value="Novo Contato!">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://delson16.github.io/obrigado/">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="final">
+            <p><i><b> &copy; Delson Pilar</b></i></p>
+            <p>Obrigado pela sua atenção</p>
+        </div>
+        <div class="social-2">
+            <a href="https://github.com/Delson16">
+                <img src="img/git.png" alt="github-logo">
+            </a>
+            <a href="https://www.linkedin.com/in/delson-dubal-pilar-2132a32b3/">
+                <img src="img/linkedin.png" alt="linkedin-logo">
+            </a>
+        </div>
+    </footer>
+
+    
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
